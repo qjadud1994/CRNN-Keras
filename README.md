@@ -26,7 +26,7 @@ Splits the features into a certain size and inserts them into the input of the B
 
 Conversion of Feature-specific predictions to Label using CTC (Connectionist Temporal Classification).
 
-
+- - -
 
 ## license plate recognition using CRNN
 
