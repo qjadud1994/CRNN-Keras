@@ -52,6 +52,7 @@ Python : 3.5.2
 Tensorflow : 1.5.0
 Keras : 2.1.3
 CUDA, CUDNN : 9.0, 7.0
+
 |       File         |Description                                       |
 |--------------------|--------------------------------------------------|
 |Model .py           |Network using CNN (VGG) + Bidirectional LSTM      |
