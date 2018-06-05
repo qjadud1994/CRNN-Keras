@@ -49,10 +49,15 @@ CRNN works well for license plate recognition as follows.
 ## File Description
 
 os : Ubuntu 16.04.4 LTS
+
 GPU : GeForce GTX 1080 (8GB)
+
 Python : 3.5.2
+
 Tensorflow : 1.5.0
+
 Keras : 2.1.3
+
 CUDA, CUDNN : 9.0, 7.0
 
 |       File         |Description                                       |
