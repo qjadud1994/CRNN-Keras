@@ -52,11 +52,11 @@ Python : 3.5.2
 Tensorflow : 1.5.0
 Keras : 2.1.3
 CUDA, CUDNN : 9.0, 7.0
-|       File         |Description                                                   |
-|----------------|--------------------------------------------------|
-|Model .py  |  Network using CNN (VGG) + Bidirectional LSTM            |
-|Model_GRU. py |  Network using CNN (VGG) + Bidirectional GRU            |
-|Image_Generator. py | Image batch generator for training |
-|parameter. py | Parameters used in CRNN |
-|training. py | CRNN training |
-|Prediction. py | CRNN prediction |
+|       File         |Description                                       |
+|--------------------|--------------------------------------------------|
+|Model .py           |Network using CNN (VGG) + Bidirectional LSTM      |
+|Model_GRU. py       |Network using CNN (VGG) + Bidirectional GRU       |
+|Image_Generator. py |Image batch generator for training                |
+|parameter. py       |Parameters used in CRNN                           |
+|training. py        |CRNN training                                     |
+|Prediction. py      |CRNN prediction                                   |
