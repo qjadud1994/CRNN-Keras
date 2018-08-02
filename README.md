@@ -48,7 +48,10 @@ CRNN works well for license plate recognition as follows.
 
 
 ### How to Training
-I used the name of the license plate file as a label. <br/>
+
+First, you need a lot of cropped license plate images.
+And in my case I expressed the number of the license plate with the image file name. <br/>
+(The license plate number 1234 is indicated as "1234.jpg"). <br/>
 (You can also define labeling with txt or csv files if you want. [(ex)0001.jpg "1234" \n 0002.jpg "0000" ...)
 
 Since I used Korean license plates, I expressed the Korean language on the license plate in English.
