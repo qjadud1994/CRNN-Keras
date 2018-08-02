@@ -59,7 +59,7 @@ Since I used Korean license plates, I expressed the Korean language on the licen
 A : 서울 <br/>
 sk : 나 <br/>
 
-After creating training data in this way, put it in 'DB/train' directory and run training.py.
+After creating training data in this way, put it in 'DB/train' directory and run [training.py](https://github.com/qjadud1994/CRNN-Keras/blob/master/training.py).
 
 ## File Description
 
