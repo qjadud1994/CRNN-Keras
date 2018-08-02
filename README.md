@@ -49,7 +49,7 @@ CRNN works well for license plate recognition as follows.
 
 ### How to Training
 
-First, you need a lot of cropped license plate images.
+First, you need a lot of cropped license plate images. <br/>
 And in my case I expressed the number of the license plate with the image file name. <br/>
 (The license plate number 1234 is indicated as "1234.jpg"). <br/>
 (You can also define labeling with txt or csv files if you want. [(ex)0001.jpg "1234" \n 0002.jpg "0000" ...)
