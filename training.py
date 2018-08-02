@@ -17,11 +17,11 @@ except:
     print("...New weight data...")
     pass
 
-train_file_path = './DB/'
+train_file_path = './DB/train/'
 tiger_train = TextImageGenerator(train_file_path, img_w, img_h, batch_size, downsample_factor)
 tiger_train.build_data()
 
-valid_file_path = './val_DB/'
+valid_file_path = './DB/test/'
 tiger_val = TextImageGenerator(valid_file_path, img_w, img_h, val_batch_size, downsample_factor)
 tiger_val.build_data()
 
