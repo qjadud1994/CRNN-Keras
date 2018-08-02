@@ -50,7 +50,7 @@ I used the name of the license plate file as a label.
 
 Since I used Korean license plates, I expressed the Korean language on the license plate in English.
 
-![Example] https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
+![Example](https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
 (exmaple) A18sk6897
 A : 서울
 sk : 나
