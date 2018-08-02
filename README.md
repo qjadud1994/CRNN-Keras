@@ -44,7 +44,18 @@ I learned the following kinds of Korean license plates.
 CRNN works well for license plate recognition as follows.
 
 
+### How to Training
+I used the name of the license plate file as a label.
+(You can also define labeling with txt or csv files if you want. [(ex)0001.jpg "1234" \n 0002.jpg "0000" ...)
 
+Since I used Korean license plates, I expressed the Korean language on the license plate in English.
+
+![Example] https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
+(exmaple) A18sk6897
+A : 서울
+sk : 나
+
+After creating training data in this way, put it in 'DB/train' directory and run training.py.
 
 ## File Description
 
