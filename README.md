@@ -12,6 +12,9 @@ It is mainly used for OCR technology and has the following advantages.
 You can use CRNN for OCR, license plate recognition, text recognition, and so on. 
 It depends on what data you are training.
 
+I used a slightly modified version of the original CRNN model.
+(Input size : 100x30 -> 128x64 & more CNN Layer)
+
 ## Network
 
 ![CRNN Network](https://github.com/qjadud1994/CRNN-Keras/blob/master/photo/Network.jpg)
