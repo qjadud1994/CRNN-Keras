@@ -39,6 +39,7 @@ I used CRNN to recognize license plates in Korea.
 
 I learned the following kinds of Korean license plates.
 
+I updated the [Korean License Plate Synthetic image generator](https://github.com/qjadud1994/Korean-license-plate-Generator.git) for those who lacked license plate pictures.
 
 
 ### Result
