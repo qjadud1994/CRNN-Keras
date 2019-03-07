@@ -61,11 +61,16 @@ def get_Model(training):
     # RNN layer
     gru_1 = GRU(256, return_sequences=True, kernel_initializer='he_normal', name='gru1')(inner)  # (None, 32, 512)
     gru_1b = GRU(256, return_sequences=True, go_backwards=True, kernel_initializer='he_normal', name='gru1_b')(inner)
-    gru1_merged = add([gru_1, gru_1b])  # (None, 32, 512)
+    reversed_gru_1b = Lambda(lambda inputTensor: K.reverse(inputTensor, axes=1)) (gru_1b)
+
+    gru1_merged = add([gru_1, reversed_gru_1b])  # (None, 32, 512)
     gru1_merged = BatchNormalization()(gru1_merged)
+    
     gru_2 = GRU(256, return_sequences=True, kernel_initializer='he_normal', name='gru2')(gru1_merged)
     gru_2b = GRU(256, return_sequences=True, go_backwards=True, kernel_initializer='he_normal', name='gru2_b')(gru1_merged)
-    gru2_merged = concatenate([gru_2, gru_2b])  # (None, 32, 1024)
+    reversed_gru_2b= Lambda(lambda inputTensor: K.reverse(inputTensor, axes=1)) (gru_2b)
+
+    gru2_merged = concatenate([gru_2, reversed_gru_2b])  # (None, 32, 1024)
     gru2_merged = BatchNormalization()(gru2_merged)
 
     # transforms RNN output to character activations:
