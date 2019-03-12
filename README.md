@@ -1,12 +1,14 @@
 # CRNN (CNN+RNN) 
 
-OCR consists of text localization + text recognition.
+OCR(Optical Character Recognition) consists of text localization + text recognition.
 (text localization finds where the characters are, and text recognition reads the letters.)
+
+You can use this [text localizaion model](https://github.com/qjadud1994/OCR_Detector) I have studied.
 
 After performing localization, each text area is cropped and used as input for text recognition.
 An example of text recognition is typically the CRNN
 
-Combining this [text detector](https://github.com/qjadud1994/OCR_Detector) with a [CRNN](https://github.com/qjadud1994/CRNN-Keras) makes it possible to create an OCR engine that operates end-to-end.
+Combining the [text detector](https://github.com/qjadud1994/OCR_Detector) with a [CRNN](https://github.com/qjadud1994/CRNN-Keras) makes it possible to create an OCR engine that operates end-to-end.
 
 ## CRNN
 
