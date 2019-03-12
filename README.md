@@ -12,9 +12,7 @@ Combining the [text detector](https://github.com/qjadud1994/OCR_Detector) with a
 
 ## CRNN
 
-**CRNN** is a network that combines CNN and RNN to process images containing sequence information such as letters.
-
-https://arxiv.org/pdf/1507.05717.pdf
+**[CRNN](https://arxiv.org/pdf/1507.05717.pdf)** is a network that combines CNN and RNN to process images containing sequence information such as letters.
 
 It is mainly used for OCR technology and has the following advantages.
 1. End-to-end learning is possible.
