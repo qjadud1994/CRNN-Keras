@@ -1,5 +1,15 @@
 # CRNN (CNN+RNN) 
 
+OCR consists of text localization + text recognition.
+(text localization finds where the characters are, and text recognition reads the letters.)
+
+After performing localization, each text area is cropped and used as input for text recognition.
+An example of text recognition is typically the CRNN
+
+Combining this [text detector](https://github.com/qjadud1994/OCR_Detector) with a [CRNN](https://github.com/qjadud1994/CRNN-Keras) makes it possible to create an OCR engine that operates end-to-end.
+
+## CRNN
+
 **CRNN** is a network that combines CNN and RNN to process images containing sequence information such as letters.
 
 https://arxiv.org/pdf/1507.05717.pdf
@@ -42,13 +52,13 @@ I learned the following kinds of Korean license plates.
 I updated the [Korean License Plate Synthetic image generator](https://github.com/qjadud1994/Korean-license-plate-Generator.git) for those who lacked license plate pictures.
 
 
-### Result
+## Result
 ![Result](https://github.com/qjadud1994/CRNN-Keras/blob/master/photo/result.jpg)
 
 CRNN works well for license plate recognition as follows.
 
 
-### How to Training
+## How to Training
 
 First, you need a lot of cropped license plate images. <br/>
 And in my case I expressed the number of the license plate with the image file name. <br/>
