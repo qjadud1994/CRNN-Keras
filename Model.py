@@ -71,7 +71,7 @@ def get_Model(training):
     reversed_lstm_2b= Lambda(lambda inputTensor: K.reverse(inputTensor, axes=1)) (lstm_2b)
 
     lstm2_merged = concatenate([lstm_2, reversed_lstm_2b])  # (None, 32, 1024)
-    lstm_merged = BatchNormalization()(lstm2_merged)
+    lstm2_merged = BatchNormalization()(lstm2_merged)
 
     # transforms RNN output to character activations:
     inner = Dense(num_classes, kernel_initializer='he_normal',name='dense2')(lstm2_merged) #(None, 32, 63)
