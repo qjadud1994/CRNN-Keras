@@ -69,7 +69,7 @@ Since I used Korean license plates, I expressed the Korean language on the licen
 
 ![Example](https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
 <br/>
-(exmaple) A18sk6897 <br/>
+(example) A18sk6897 <br/>
 A : 서울 <br/>
 sk : 나 <br/>
 
